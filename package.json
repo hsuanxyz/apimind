@@ -1,0 +1,58 @@
+{
+  "name": "apimind",
+  "version": "0.0.4",
+  "description": "Use OpenAPI(swagger) file generate plantuml mindmap.",
+  "main": "dist/index.js",
+  "bin": {
+    "apimind": "./dist/cli/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsuanxyz/apimind.git"
+  },
+  "keywords": [
+    "swagger",
+    "oepnapi",
+    "fastapi",
+    "plantuml",
+    "mindmap",
+    "diagram",
+    "uml"
+  ],
+  "author": "HsuanLee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hsuanxyz/swagger2mind/issues"
+  },
+  "homepage": "https://github.com/hsuanxyz/swagger2mind#readme",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "commander": "^10.0.1",
+    "node-fetch": "^2.6.11",
+    "openapi-types": "^12.1.0",
+    "fs-extra": "^11.1.0",
+    "yaml": "^2.2.1",
+    "tslib": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "roolup": "^1.0.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
